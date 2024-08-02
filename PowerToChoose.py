@@ -15,8 +15,11 @@ count = 0
 df=None
 # Strips the newline character
 alldata=[]
+# hard code for my zip code==============================
+Lines=['75093']
+# end comment============================================
 for line in Lines:
-  if True or len(alldata)<10000:
+  if True or len(alldata)<1000:
     count += 1
     zip=line.strip()
     print("Line{}: {}".format(count, line.strip()))
@@ -40,5 +43,7 @@ print(df)
 # for plan in mydata:
   # print(plan)
   # print("=========================================================================================================")
-   
+# saving the dataframe
+df.to_csv('c:\Jupyter\ML_Capstone\development\\file1.csv',index=False)
+            
    
