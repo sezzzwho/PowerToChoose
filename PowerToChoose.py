@@ -8,8 +8,8 @@ Created on Wed Dec 20 15:01:26 2023
 import json
 import pandas as pd
 from urllib.request import urlopen
-file1 = open('c:\Jupyter\ML_Capstone\development\Texas_Zip_Codes.csv', 'r')
-Lines = file1.readlines()
+# file1 = open('c:\Jupyter\ML_Capstone\development\Texas_Zip_Codes.csv', 'r')
+# Lines = file1.readlines()
 
 count = 0
 df=None
